@@ -31,7 +31,7 @@ python train_pnet.py
 ```
 **3. Generate RNet data with trained PNet**
 ```
-python generate_data\Generate_PNet_data.py
+python generate_data\Generate_RNet_data.py
 ```
 **4. Train RNet**
 ```
@@ -39,7 +39,7 @@ python train_rnet.py
 ```
 **5. Generate ONet data with trained PNet and RNet**
 ```
-python generate_data\Generate_RNet_data.py
+python generate_data\Generate_ONet_data.py
 ```
 **6. Train ONet**
 ```
